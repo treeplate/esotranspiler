@@ -79,8 +79,8 @@ class _TagSystemCreatorState extends State<TagSystemCreator> {
               ),
             ],
           ),
-          RichText(
-            text: TextSpan(
+          Text.rich(
+            TextSpan(
               text: 'Initial word: ',
               children: [
                 WidgetSpan(
@@ -96,8 +96,8 @@ class _TagSystemCreatorState extends State<TagSystemCreator> {
             Row(
               mainAxisSize: MainAxisSize.min,
               children: [
-                RichText(
-                  text: TextSpan(
+                Text.rich(
+                  TextSpan(
                     text: '$i =>',
                     children: [
                       WidgetSpan(
